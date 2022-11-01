@@ -1,0 +1,155 @@
+:root{
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color : #22c55e;
+    --red-color: #f44336;
+    --gray-color: #888;
+}
+/* Start Box */
+.d-block{
+    display: block;
+}
+.d-flex{
+    display: flex;
+}
+.alien-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.full-w{
+    width: 100%;
+    display: block;
+}
+.d-grid{
+    display: grid;
+}
+.gap-20{
+    gap: 20px;
+}
+.w-fit{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+@media (max-width : 767px) {
+    .block-moblie{
+        display: block;
+    }
+    .hide-moblie{
+        display: none;
+    }
+}
+/* End Box */
+
+/* Start padding and margin */
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.m-0{
+    margin: 0;
+}
+.m-20{
+    margin: 20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
+/* End padding and margin */
+
+/* Start color */
+
+.bg-white {
+background-color: white;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.c-white{
+    color: white;
+}
+.c-black{
+    color: black;
+}
+.c-gray{
+    color: var(--gray-color);
+}
+/* End color */
+
+/* Start position */
+.p-rel{
+    position: relative;
+}
+/* End position */
+
+/* Start font */
+.txt-c{
+    text-align: center;
+}
+.fs-14{
+    font-size: 14px;
+}
+
+@media (max-width : 767px) {
+    .txt-c-mobile{
+        text-align: center;
+    }
+}
+/* End font */
+
+/* Start border */
+.b-none{
+    border : none;
+}
+.rad-6{
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+/* End border */
+
+/* Start conponet */
+.between-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Start conponet */

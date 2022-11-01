@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DashBoard</title>
+        <!-- google font  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="css/all.min.css">
+        <!-- My Framwork -->
+        <link rel="stylesheet" href="css/framwork.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="page d-flex">
+            <div class="sidbar bg-white p-20 p-rel">
+                <h3 class="txt-c p-rel mt-0 p-rel">Khaled</h3>
+                <ul>
+                    <li>
+                        <a class="active d-flex alien-center fs-14 c-black rad-6 p-10" href="index.html">
+                            <i class="fa-solid fa-house fa-fw"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex alien-center fs-14 c-black rad-6 p-10" href="index.html">
+                            <i class="fa-solid fa-gear fa-fw"></i>
+                            <span>Setting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="d-flex alien-center fs-14 c-black rad-6 p-10" href="index.html">
+                            <i class="fa-solid fa-user fa-fw"></i>
+                            <span>Profile</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active d-flex alien-center fs-14 c-black rad-6 p-10" href="index.html">
+                            <i class="fa-solid fa-microchip fa-fw"></i>
+                            <span>Projects</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active d-flex alien-center fs-14 c-black rad-6 p-10" href="index.html">
+                            <i class="fa-solid fa-file-invoice fa-fw" ></i>
+                            <span>Courses</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active d-flex alien-center fs-14 c-black rad-6 p-10" href="index.html">
+                            <i class="fa-solid fa-file fa-fw"></i>
+                            <span>Files</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="active d-flex alien-center fs-14 c-black rad-6 p-10" href="index.html">
+                            <i class="fa-solid fa-chart-pie fa-fw"></i>
+                            <span>Plans</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="content ">
+                <div class="head between-flex full-w p-rel bg-white p-15">
+                    <div class="search">
+                        <input class="p-10" type="search" placeholder="Search...">
+                    </div>
+                    <div class="icons d-flex alien-center">
+                        <span class="notify p-rel">
+                            <i class="fa-solid fa-bell"></i>
+                        </span>
+                        <div class="avater">
+                            <img src="images/Avater.png" alt="avater">
+                        </div>
+                    </div>
+                </div>
+                <h1 class="p-rel">Dashbord</h1>
+                <!-- Start welcome -->
+                <div class="wrapper d-grid gap-20">
+                    <div class="welcome bg-white rad-10 txt-c-mobile block-moblie">
+                        <div class="intro d-flex space-between p-20 bg-eee">
+                            <dir>
+                                <h2 class="m-0">Welcome</h2>
+                                <p class="c-gray mt-5">Khaled</p>
+                            </dir>
+                            <img src="images/welcome.png" alt="welcome" class="hide-moblie">
+                        </div>
+                        <img src="images/avatar.png" alt="avatar">
+                        <div class="body d-flex space-between txt-c block-moblie p-20 mt-20 mb-20">
+                            <div>Mohamed Khaled <span class="d-block c-gray fs-14 mt-10">Developer</span></div>
+                            <div>80 <span class="d-block c-gray fs-14 mt-10">Projects</span></div>
+                            <div>$8500 <span class="d-block c-gray fs-14 mt-10">Earned</span></div>
+                        </div>
+                        <a class="visit d-block fs-14 rad-6 bg-blue c-white w-fit p-10" href="profile.html">profile</a>
+                    </div>
+                </div>
+                <!-- End welcome -->
+                <!-- Start Draft -->
+                <div class="darft bg-white rad-10 p-20">
+                    <h2 class="mt-0 mb-10">Quick Draft</h2>
+                    <p class="mt-0 mb-20 fs-14 c-gray">Write A Draft Your Ideas</p>
+                    <form action="">
+                        <input type="text" class="full-w bg-eee mb-20 p-10 b-none" placeholder="Title">
+                        <textarea class="full-w bg-eee mb-20 p-10 b-none" placeholder="Your Thought"></textarea>
+                        <input class="visit d-block fs-14 rad-6 bg-blue c-white w-fit p-10 b-none save mr-20" type="button" value="save">
+                    </form>
+                </div>
+                <!-- End Draft -->
+                
+            </div>
+        </div>
+    </body>
+</html>
