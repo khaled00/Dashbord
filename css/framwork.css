@@ -94,6 +94,12 @@ background-color: white;
 .bg-blue{
     background-color: var(--blue-color);
 }
+.bg-orange{
+    background-color: var(--orange-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+}
 .c-white{
     color: white;
 }
@@ -103,6 +109,7 @@ background-color: white;
 .c-gray{
     color: var(--gray-color);
 }
+
 /* End color */
 
 /* Start position */
@@ -118,7 +125,9 @@ background-color: white;
 .fs-14{
     font-size: 14px;
 }
-
+.f-bold{
+    font-weight: bold;
+}
 @media (max-width : 767px) {
     .txt-c-mobile{
         text-align: center;
@@ -147,6 +156,11 @@ background-color: white;
 /* End border */
 
 /* Start conponet */
+.f-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .between-flex{
     display: flex;
     align-items: center;
