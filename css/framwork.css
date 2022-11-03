@@ -106,8 +106,20 @@ background-color: white;
 .c-black{
     color: black;
 }
+.c-blue{
+    color: var(--blue-color);
+}
 .c-gray{
     color: var(--gray-color);
+}
+.c-orange{
+    color: var(--orange-color);
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-red{
+    color: var(--red-color);
 }
 
 /* End color */
@@ -122,8 +134,14 @@ background-color: white;
 .txt-c{
     text-align: center;
 }
+.fs-13{
+    font-size: 13px;
+}
 .fs-14{
     font-size: 14px;
+}
+.fs-25{
+    font-size: 25px;
 }
 .f-bold{
     font-weight: bold;
@@ -165,5 +183,8 @@ background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.f-wrap{
+    flex-wrap: wrap;
 }
 /* Start conponet */

@@ -372,3 +372,19 @@ body{
 }
 
 /* End target */
+
+/* Start tickets */
+.tickets .box{
+    border: 1px solid #CCC;
+    width: calc(50% - 10px);
+}
+@media (max-width: 767px) {
+    .tickets .t-content{
+        gap: 10px;
+    }
+    .tickets .box{
+        width: 100%;
+        margin-bottom: 0;
+    }
+}
+/* End tickets */
