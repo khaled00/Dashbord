@@ -388,3 +388,23 @@ body{
     }
 }
 /* End tickets */
+
+/* Start news */
+.news .new-row{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EEE;
+}
+.news .new-row img{
+    width: 100px;
+}
+.news .new-row .new-content{
+    flex-grow: 1;
+}
+@media (max-width: 767px) {
+    .news .new-row{
+        display: block;
+        padding-bottom: 20px;
+    }
+}
+/* End news */

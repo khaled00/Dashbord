@@ -19,6 +19,9 @@
 .space-between{
     justify-content: space-between;
 }
+.f-wrap{
+    flex-wrap: wrap;
+}
 .full-w{
     width: 100%;
     display: block;
@@ -72,15 +75,19 @@
 .mt-5{
     margin-top: 5px;
 }
+.mr-10{
+    margin-right: 10px;
+}
+.mr-20{
+    margin-right: 20px;
+}
 .mb-20{
     margin-bottom: 20px;
 }
 .mb-10{
     margin-bottom: 10px;
 }
-.mr-20{
-    margin-right: 20px;
-}
+
 /* End padding and margin */
 
 /* Start color */
@@ -140,6 +147,12 @@ background-color: white;
 .fs-14{
     font-size: 14px;
 }
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
 .fs-25{
     font-size: 25px;
 }
@@ -184,7 +197,13 @@ background-color: white;
     align-items: center;
     justify-content: space-between;
 }
-.f-wrap{
-    flex-wrap: wrap;
+
+.bt-shape{
+    padding:4px 10px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
-/* Start conponet */
+/* End conponet */
