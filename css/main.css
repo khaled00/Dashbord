@@ -430,3 +430,16 @@ body{
     cursor: pointer;
 }
 /* End tasks */
+
+/* Start latest upload  */
+.upload .u-box{
+    flex-grow: 1;
+}
+.upload .u-box img{
+    width: 40px;
+    height: 40px;
+}
+.upload ul li:not(:last-of-type){
+    border-bottom: 1px solid #EEE;
+}
+/* End latest upload  */
