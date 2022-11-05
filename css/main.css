@@ -480,7 +480,24 @@ body{
     width: 180px;
 }
 /* End last projrct */
-
+/* Start Reminders */
+.reminders ul li > span{
+    width: 20px;
+    height: 20px;
+} 
+.reminders ul li.blue > div {
+    border-left: 2px solid var(--blue-color);
+}
+.reminders ul li.green > div {
+    border-left: 2px solid var(--green-color);
+}
+.reminders ul li.red > div {
+    border-left: 2px solid var(--red-color);
+}
+.reminders ul li.orange > div {
+    border-left: 2px solid var(--orange-color);
+}
+/* End Reminders */
 /* Start Animation */
 @keyframes flashing {
     0%{

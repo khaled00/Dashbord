@@ -69,6 +69,9 @@
 .pb-20{
     padding-bottom: 20px;
 }
+.pl-15{
+    padding-left: 15px;
+}
 .m-0{
     margin: 0;
 }
@@ -84,6 +87,9 @@
 .mt-10{
     margin-top: 10px;
 }
+.mt-15{
+    margin-top: 15px;
+}
 .mt-20{
     margin-top: 20px;
 }
@@ -92,6 +98,9 @@
 }
 .mr-10{
     margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
 }
 .mr-20{
     margin-right: 20px;
@@ -125,6 +134,9 @@ background-color: white;
 }
 .bg-green{
     background-color: var(--green-color);
+}
+.bg-red{
+    background-color: var(--red-color);
 }
 .c-white{
     color: white;
@@ -205,6 +217,13 @@ background-color: white;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+.rad-half{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 /* End border */
 
