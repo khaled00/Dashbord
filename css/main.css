@@ -507,8 +507,76 @@ body{
     border-top: 1px solid #EEE;
     border-bottom: 1px solid #EEE;
     line-height: 1.8;
+    text-transform: capitalize;
 }
 /* End latest post */
+/* Start social-medaia */
+.social-medaia ul li i {
+    width: 52px;
+}
+.social-medaia ul li > span{
+    cursor: pointer;
+}
+.social-medaia ul li i{
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.social-medaia ul li i:hover{
+    transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+}
+
+.social-medaia ul li.twitter{
+    background-color: rgb(29 161 242 / 20%);
+}
+.social-medaia ul li.twitter > div > span{
+    color: #1da1f2;
+}
+.social-medaia ul li.twitter i,
+.social-medaia ul li.twitter > span{
+    background-color: #1da1f2;
+}
+/* facebook */
+.social-medaia ul li.facebook{
+    background-color: rgb(24 119 242 / 20%)
+}
+.social-medaia ul li.facebook > div > span{
+    color: #1877f2
+}
+.social-medaia ul li.facebook i,
+.social-medaia ul li.facebook > span{
+    background-color: #1877f2
+}
+/* youtube */
+.social-medaia ul li.youtube{
+    background-color: rgb(255 0 0 / 20%)
+}
+.social-medaia ul li.youtube > div > span{
+    color: #ff0000
+}
+.social-medaia ul li.youtube i,
+.social-medaia ul li.youtube > span{
+    background-color: #ff0000
+}
+/* linkedin  */
+.social-medaia ul li.linkedin{
+    background-color: rgb(0 119 181 / 20%)
+}
+.social-medaia ul li.linkedin > div > span{
+    color: #0077b5;
+}
+.social-medaia ul li.linkedin i,
+.social-medaia ul li.linkedin > span{
+    background-color: #0077b5;
+}
+/* End social-medaia */
+
 /* Start Animation */
 @keyframes flashing {
     0%{

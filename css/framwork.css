@@ -37,6 +37,9 @@
     width: -moz-fit-content;
     width: fit-content;
 }
+.h-full{
+    height: 100%;
+}
 @media (max-width : 767px) {
     .block-moblie{
         display: block;
@@ -56,6 +59,12 @@
 }
 .p-20{
     padding: 20px;
+}
+.p-25{
+    padding: 25px;
+}
+.pt-10{
+    padding-top: 10px;
 }
 .pt-15{
     padding-top: 15px;
