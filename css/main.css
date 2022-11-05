@@ -443,3 +443,51 @@ body{
     border-bottom: 1px solid #EEE;
 }
 /* End latest upload  */
+
+/* Start last projrct */
+.last-projrct ul::before{
+    content: '';
+    position: absolute;
+    left: 11px;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: var(--blue-color);
+}
+.last-projrct ul li::before{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    outline: 2px solid var(--blue-color);
+    margin-right: 10px;
+    z-index: 1;
+}
+.last-projrct ul li.done::before{
+    background-color: var(--blue-color);
+}
+.last-projrct ul li.current::before{
+    animation: flashing 0.8s infinite alternate;
+    -webkit-animation: flashing 0.8s infinite alternate;
+}
+.last-projrct .p-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.2;
+    width: 180px;
+}
+/* End last projrct */
+
+/* Start Animation */
+@keyframes flashing {
+    0%{
+        background-color: var(--blue-color);
+    }
+    100%{
+        background-color: white;
+    }
+}
+/* End Animation */
