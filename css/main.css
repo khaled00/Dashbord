@@ -498,6 +498,17 @@ body{
     border-left: 2px solid var(--orange-color);
 }
 /* End Reminders */
+/* Start latest post */
+.latest-post .post-img{
+    width: 48px;
+    height: 48px;
+}
+.latest-post .post-content{
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+    line-height: 1.8;
+}
+/* End latest post */
 /* Start Animation */
 @keyframes flashing {
     0%{
