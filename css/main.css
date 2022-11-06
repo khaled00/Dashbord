@@ -576,8 +576,58 @@ body{
     background-color: #0077b5;
 }
 /* End social-medaia */
+/* Start project table */
+.project-table .table{
+    overflow-x: auto;
+    
+}
+.project-table table{
+    min-width: 1000px;
+    border-spacing: 0;
+}
+.project-table table td{
+    padding: 20px ;
+    border-bottom: 1px solid #EEE;
+    border-left: 1px solid #EEE;
+}
+.project-table table tr:hover td{
+    background-color: #eee;
+}
+.project-table table tr td:last-child{
+    border-right: 1px solid #EEE;
+    font-size: 13px;
+}
+.project-table table tbody td img{
+    width: 32px;
+    height: 32px;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -20px;
+    padding: 2px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* End project table */
 
 /* Start Animation */
+@-webkit-keyframes flashing {
+    0%{
+        background-color: var(--blue-color);
+    }
+    100%{
+        background-color: white;
+    }
+}
+@-webkit-keyframes flashing {
+    0%{
+        background-color: var(--blue-color);
+    }
+    100%{
+        background-color: white;
+    }
+}
 @keyframes flashing {
     0%{
         background-color: var(--blue-color);
