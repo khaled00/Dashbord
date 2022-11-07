@@ -611,6 +611,29 @@ body{
 }
 /* End project table */
 
+/********* Start setting page */
+.setting-page{
+    grid-template-columns: repeat(auto-fill , minmax(450px , 1fr));
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+@media (max-width : 767px) {
+    .setting-page{
+        grid-template-columns: minmax(100px, 1fr);
+    }
+}
+
+/* Start open/close */
+.open-close textarea{
+    min-height: 150px;
+    resize: none;
+    border: 1px solid #CCC;
+}
+/* end open/close */
+/********* end setting page */
+
+
 /* Start Animation */
 @-webkit-keyframes flashing {
     0%{
