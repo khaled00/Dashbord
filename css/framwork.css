@@ -108,6 +108,9 @@
 .mt-25{
     margin-top: 25px;
 }
+.mr-5{
+    margin-right: 5px;
+}
 .mr-10{
     margin-right: 10px;
 }
@@ -243,6 +246,9 @@ background-color: white;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
+.border-ccc{
+    border: 1px solid #CCC;
+}
 /* End border */
 
 /* Start conponet */
@@ -268,7 +274,9 @@ background-color: white;
 
 /* Start toggel check box */
 .toggel-check{
-    appearance: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
     display: none;
     
 }

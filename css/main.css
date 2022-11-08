@@ -631,9 +631,18 @@ body{
     border: 1px solid #CCC;
 }
 /* end open/close */
+/* Start  General Info*/
+.genral-info input[type="email"]{
+    display: inline-flex;
+    width: calc(100% - 80px);
+}
+.security-info > div:not(:last-child){
+    border-bottom: 1px solid #CCC;
+}
+/* End General Info */
+
+
 /********* end setting page */
-
-
 /* Start Animation */
 @-webkit-keyframes flashing {
     0%{
