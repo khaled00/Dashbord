@@ -677,6 +677,61 @@ body{
     color: black;
 }
 /* End social-info */
+/* Start widgets-control */
+.widgets-control input{
+    appearance: none;
+}
+.widgets-control label{
+    padding-left: 30px;
+    cursor: pointer;
+}
+.widgets-control label::before,
+.widgets-control label::after{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -9px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.widgets-control label::before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    border: 2px solid var(--gray-color);
+}
+.widgets-control label:hover::before{
+    border-color: var(--blue-color);
+}
+.widgets-control label::after{
+    content: "\f00c";
+    font-family: var(--fa-style-family-classic);
+    font-weight: 900;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-color);
+    color: white;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+} 
+.widgets-control input:checked + label::after{
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+/* End widgets-control */
 
 /********* end setting page */
 /* Start Animation */

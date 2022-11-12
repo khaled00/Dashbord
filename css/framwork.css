@@ -278,8 +278,8 @@ background-color: white;
 /* Start toggel check box */
 .toggel-check{
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     display: none;
     
 }
