@@ -815,6 +815,65 @@ body{
 /* end Backup Manager */
 
 /********* end setting page */
+/********* Start profile page */
+.profile-page .overview .avater-box{
+    width: 300px;
+}
+.profile-page .overview .avater-box img{
+    width: 120px;
+    height: 120px;
+} 
+.profile-page .overview .avater-box .progress{
+    width: 70%;
+    height: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.profile-page .overview .avater-box .progress span{
+    background-color: var(--blue-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+@media (max-width : 767px) {
+    .profile-page .overview {
+        flex-direction: column;
+    }
+}
+@media (min-width : 767px) {
+
+    .profile-page .overview .avater-box{
+        border-right: 1px solid #EEE;
+    }
+
+}
+.profile-page .info-text .box{
+    border-bottom: 1px solid #EEE;
+}
+.profile-page .info-text .box:hover{
+    background-color: #f9f9f9;
+}
+.profile-page .info-text .box .text{
+    width: 250px;
+}
+.profile-page .info-text .box .toggel-swich{
+    height: 20px;
+}
+.profile-page .info-text .box .toggel-swich::before{
+    height: 14px;
+    top: 3px;
+}
+.profile-page .toggel-swich::before{
+    width: 16px;
+}
+.profile-page label .toggel-check:checked + .toggel-swich::before{
+    font-size: 10px;
+    width: 14px;
+    left: 60px;
+}
+/********* end profile page */
+
 /* Start Animation */
 @-webkit-keyframes flashing {
     0%{

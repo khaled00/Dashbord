@@ -63,6 +63,9 @@
 .p-25{
     padding: 25px;
 }
+.pt-5{
+    padding-top: 5px;
+}
 .pt-10{
     padding-top: 10px;
 }
@@ -201,6 +204,9 @@ background-color: white;
 }
 .fs-14{
     font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
 }
 .fs-16{
     font-size: 16px;
