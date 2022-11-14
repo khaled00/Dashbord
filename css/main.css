@@ -941,6 +941,93 @@ body{
     }
 }
 /********* end profile page */
+/* Start projects-page */
+.projects-page{
+    grid-template-columns: repeat(auto-fill, minmax(500px , 1fr));
+}
+.projects-page .project-box > span{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.projects-page .project-box h4{
+    font-weight: normal;
+}
+.projects-page .project-box .teams{
+    min-height: 50px;
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #EEE;
+}
+.projects-page .project-box a{
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+.projects-page .project-box a:hover{
+    z-index: 1000;
+}
+.projects-page .project-box a:nth-child(2){
+    left: 25px;
+}
+.projects-page .project-box a:nth-child(3){
+    left: 50px;
+}
+.projects-page .project-box a:nth-child(4){
+    left: 75px;
+}
+.projects-page .project-box a:nth-child(5){
+    left: 100px;
+}
+.projects-page .project-box .teams img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.projects-page .project-box .do{
+    justify-content: flex-end;
+    gap: 10px;
+}
+.projects-page .project-box .do span{
+    padding: 4px 8px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+}
+.projects-page .project-box .do{
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #EEE;
+}
+.projects-page .project-box .info{
+    padding-top: 15px;
+    margin-top: 15px;
+    border-top: 1px solid #EEE;
+}
+.projects-page .project-box .progress{
+    width: 250px;
+    height: 8px;
+}
+.projects-page .project-box .progress span{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+@media (max-width:767px) {
+    .projects-page{
+        grid-template-columns: minmax(200px , 1fr);
+    }
+    .projects-page .project-box .do{
+        flex-direction: column;
+    }
+}
+/* End projects-page */
 
 /* Start Animation */
 @-webkit-keyframes flashing {
