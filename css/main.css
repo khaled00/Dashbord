@@ -1029,6 +1029,62 @@ body{
 }
 /* End projects-page */
 
+/* Start  courses page */
+.courses-page{
+    grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
+}
+.courses-page .courses-box{
+    overflow: hidden;
+}
+.courses-page .courses-box .cover{
+    max-width: 100%;
+}
+.courses-page .courses-box .instractor{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+    border: 2px solid white;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.courses-page .courses-box .text p{
+    line-height: 1.6;
+}
+.courses-page .courses-box .info{
+    border-top: 1px solid #EEE;
+    padding-top: 15px;
+}
+.courses-page .courses-box .info-btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -15px;
+    height: 31px;
+    font-size: 15px;
+    cursor: pointer;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.courses-page .courses-box .info span:not(.info-btn) {
+    font-size: 13px;
+}
+@media (max-width:767px) {
+    .courses-page{
+        grid-template-columns: minmax(200px , 1fr);
+    }
+}
+
+/* End courses page */
+
+
+
 /* Start Animation */
 @-webkit-keyframes flashing {
     0%{
